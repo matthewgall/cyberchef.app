@@ -1,6 +1,6 @@
 # cyberchef.app
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/matthewgall/cyberchef.app/build?color=db422a&logoColor=FFFFFF&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/matthewgall/cyberchef.app/publish-prod/master?style=for-the-badge)
 
 cyberchef.app is a Cloudflare Workers powered deployment of the [GCHQ](https://gchq.gov.uk) created and maintained [CyberChef](https://github.com/gchq/CyberChef/), released under the [Apache 2.0 Licence](https://www.apache.org/licenses/LICENSE-2.0) and is covered by [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/).
 
