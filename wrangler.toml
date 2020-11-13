@@ -1,8 +1,12 @@
-name = "cyberchef-prod"
+name = "cyberchef-dev"
 type = "webpack"
 account_id = "b0d7b9f87b57470ef508f1a511093cae"
-route = "cyberchef.app/*"
+route = "dev.cyberchef.app/*"
 zone_id = "86fc09e080d23aa8ae4ad561836e7f9c"
+
+[env.prod]
+name = "cyberchef-prod"
+route = "cyberchef.app/*"
 
 [site]
 bucket = "./public"
