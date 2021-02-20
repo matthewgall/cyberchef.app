@@ -5,8 +5,6 @@ on:
   push:
     tags:
       - '*'
-  schedule:
-    - cron: "14 1 * * *"
 jobs:
   deploy:
     runs-on: ubuntu-latest
