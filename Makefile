@@ -1,4 +1,4 @@
-VERSION:="v10.8.0"
+VERSION:="v10.8.2"
 
 .PHONY: download
 download:
