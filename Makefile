@@ -1,6 +1,6 @@
 VERSION:="v10.18.4"
 
-.PHONY: download
+.PHONY: download make-release
 download:
 	@echo Cleaning up public
 	@rm -rf dist/ public/
@@ -18,3 +18,8 @@ download:
 
 	@echo Cleaning up artifacts
 	@rm *.zip
+
+make-release:
+	@git add Makefile
+	@git commit -m "RELEASE $(cat Makefile | grep "VERSION:=" | cut -d "=" -f 2 | sed 's/"//g')"
+	@git push
